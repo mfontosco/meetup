@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: large;
+    height:100%;
+    width: 100%;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+nav{
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.nav-items{
+    margin-left: auto;
+    justify-content: space-around;
+}
+.logo>img{
+    height: 30px;
+    margin-left: 30px;
+}
+span{
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+}
+span>a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.firstdiv{
+    display: flex;
+    margin-top: 200px;
+    /* height: 200px; */
+    margin-bottom: 50px;
+  
+}
+.year-one{
+    flex: 1;
+    text-align:start;
+    font-size: 28px;
+    font-weight: bold;
+   
+   
+}
+.year-one>p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.year-two{
+    flex: 1;
+    text-align:start;
+}
+.container-one{
+    display: flex;
+    justify-content: space-around;
+}
+.friends{
+    flex: 1;
+}
+.friends>img{
+border-radius: 10px;
+}
+.friends>a{
+    display: block;
+}
+.buttons{
+    justify-content: space-around;
+    margin-top: 50px;
+}
+button{
+    background-color: #205375;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.input{
+    display: flex;
+}
+.search{
+    flex:1;
+    margin-top: 50px;
+}
+.btn{
+    flex: 1;
+    margin-top: 50px;
+}
+.btn-search{
+    width: 90%;
+    margin-top: 20px;
+    background-color: red;
+    font-weight: bold;
+
+}
+.input{
+    margin-left: 50px;
+}
+
+
+#input{
+width: 40%;
+height: 40px;
+}
+.article{
+    margin-top: 40px;
+    margin-left: 50px;
+    text-align: center;
+}
+.article-img{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: space-evenly;
+
+}
+.heading-text{
+    text-align: center;
+}
+.article-img >.img{
+    flex: 1;
+    margin-right: 10px;
+}
+.article-img >.img >p{
+    text-align: center;
+    font-size: 14px;
+}
+.article-img >.img >h3{
+    color:#205375;
+    margin-bottom: 10px;
+}
+.heading{
+    display: flex;
+}
+.heading>.link{
+    margin-left: auto;
+}
+.online-event{
+    margin-top: 40px;
+}
+.cards{
+    display: flex;
+}
+.card{
+    flex: 1;
+    
+}
+.card>.img>.camera>h6{
+   margin-left: 3px;
+    background-color: white;
+}
+.card>.img>.camera{
+    background-color: white;
+    width: 50%;
+    display: flex;
+}
+.card>.img{
+    margin-left: 10px;
+padding: 5px;
+background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url("https://secure-content.meetupstatic.com/images/classic-events/503838352/398x224.webp");
+}
+.card>h4,p{
+    margin: 10px;
+    text-align: start;
+}
+.card>p{
+    color: light-grey;
+}
+.card>a{
+    margin-left: 10px;
+}
+.person{
+    display: flex;
+    padding: 10px;
+}
+.person-num{
+    margin-left: 0;
+}
+.person>.person-one>img{
+    border-radius: 50%;
+    position: relative;
+    /* right: 20px; */
+}
+.person>.person-one>.join-img2{
+    position: relative;
+    right: 20px;
+   
+}
+.person>.person-one>.join-img3{
+    position: relative;
+    right: 40px;
+    
+}
+.download{
+    margin-left: auto;
+}
+.heading{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.new-group{
+    display: flex;
+
+    
+    /* justify-content: space-around; */
+}
+hr{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.popular >h5 {
+    margin: 10px;
+}
+.popular>h4{
+    margin-bottom: 10px;
+}
+.shy-group{
+    flex: 1;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 150px;
+}
+.group-meetup{
+    display: flex;
+}
+.group-img > img{
+    border-radius: 10px;
+}
+.phone{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+
+
+}
+.phone-container{
+    flex: 1;
+}
+.center{
+    flex: 1;
+    margin-top: 180px;
+    text-align: center;
+    margin-right: 30px;
+}
+.phone-container2{
+    flex: 1;
+    margin-left: 20px;
+}
+.metup-logo{
+    margin-bottom: 20px;
+}
+.app-text{
+margin-bottom: 15px;
+}
+.meetup-btn>img{
+    margin-right: 20px;
+}
+
+.articles{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.articles-img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url("https://secure.meetupstatic.com/next/images/indexPage/first_article.webp?w=1920")
+}
+.main-article{
+    display: flex;
+}
+.article-container{
+    flex: 1;
+    padding-left: 0px;
+}
+.article-text{
+    text-align: start;
+    margin-left: 0px;
+}
+.footer{
+    background-color: black;
+    align-items: center;
+
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+}
+.footer-heading{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.table>table{
+    color: white;
+    width: 100%;
+}
+th,td{
+    text-align: left;
+    padding: 5px;
+}
+.footer-icon{
+    display: flex;
+}
+.google{
+    margin-left: auto;
+}
+.footer-list>ul>li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.footer-icon,.h4,.footer-list>ul{
+    color: white;
+   
+}
+.h4,.footer-icon{
+    margin-top: 20px;
+}
+.icon{
+   margin-right: 15px; 
+}
+.footer-btn>img{
+    margin-right: 15px;
+}
+.footer-btn-1{
+    border-radius: 5px;
+    border:2px solid white;
+    padding: 10px;
+    background: black;
+}
+.third-item{
+    text-align: right;
+}
+/* responsivesness */
+@media  (max-width:600px){
+   body{
+       text-align: center;
+   } 
+.firstdiv{
+   flex-wrap: wrap;
+}
+.year-two{
+    margin-top: 40px;
+}
+.firstdiv>.year-one,.year-two{
+    flex: 1 1 100%;
+    font-size: 10vw;
+}
+.container-one{
+flex-wrap: wrap;
+}
+.friends{
+    flex: 1 1 50%;
+}
+.article-img{
+    flex-wrap: wrap;
+}
+.article-img >.img{
+    flex: 1 1 100%;
+}
+.cards{
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1 1 100%;
+}
+.new-group{
+    flex-wrap: wrap;
+}
+.shy-group{
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+    height: 180px;
+
+}
+.phone{
+    flex-wrap: wrap;
+}
+.phone-container2{
+    margin-top: 50px;
+    
+}
+
+.main-article{
+    flex-wrap: wrap;
+}
+.articles-container{
+    flex: 1 1 100%;
+}
+.footer-btn-1{
+    justify-content: center;
+    text-align:center;
+    padding:0  10px;
+}
+.footer-btn{
+    display: flex;
+}
+.h4{
+    text-align: left;
+}
+}
